@@ -5,8 +5,8 @@ from tensorflow.keras.preprocessing import image
 from cv2 import cv2
 import numpy as np
 
-face_classifier = cv2.CascadeClassifier('/Users/matrikasubedi/Documents/Deep Learning/Emotion Detection/haarcascade_frontalface_default.xml')
-classifier =load_model('/Users/matrikasubedi/Documents/Deep Learning/Emotion Detection/Emotion_little_vgg.h5')
+face_classifier = cv2.CascadeClassifier('/Users/matrikasubedi/Documents/Deep Learning/Emotion-Detection/haarcascade_frontalface_default.xml')
+classifier =load_model('/Users/matrikasubedi/Documents/Deep Learning/Emotion-Detection/Emotion_little_vgg.h5')
 
 class_label = ['Angry','Happy','Neutral','Sad','Surprise']
 
